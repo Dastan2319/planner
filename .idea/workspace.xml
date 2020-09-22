@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7e5cf6c-f873-4415-a996-7ab988b95191" name="Default Changelist" comment="" />
+    <list default="true" id="b7e5cf6c-f873-4415-a996-7ab988b95191" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/Tags/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Tags/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/setLocale.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/setLocale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_21_161714_create_tags_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +31,16 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Blade templates" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -124,14 +155,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hpCYmtr5X8jA5M0JXc6lBDveyq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -149,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600698696740</updated>
       <workItem from="1600698697798" duration="11160000" />
-      <workItem from="1600778201893" duration="692000" />
+      <workItem from="1600778201893" duration="17113000" />
     </task>
     <servers />
   </component>
@@ -157,13 +190,37 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600704068932">
+    <state x="514" y="96" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600789775179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600704068932" />
+    <state x="514" y="96" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1600789775179" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600795984295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600795984295" />
+    <state x="647" y="310" key="Github.ShareDialog" timestamp="1600779103040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1600779103040" />
+    <state x="538" y="110" key="Github.UntrackedFilesDialog" timestamp="1600779121165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600779121165" />
     <state x="604" y="336" key="NewPhpFileDialog" timestamp="1600705910535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1600705910535" />
+    <state x="490" y="160" width="540" height="524" key="StructurePopup" timestamp="1600785384457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="160" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1600785384457" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600779178562">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600779178562" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600786425813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600786425813" />
   </component>
 </project>

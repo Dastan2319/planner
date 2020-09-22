@@ -1,9 +1,11 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TagsController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,16 +23,25 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('welcome/{locale}', function ($locale) {
-    if (! in_array($locale, \Illuminate\Support\Facades\Config::get('app.locales'))) {
+    if (! in_array($locale, Config::get('app.locales'))) {
         abort(400);
     }
     App::setLocale($locale);
+    session()->put('locale',$locale);
     return redirect()->back();
 })->name('lang.change');
 
 Auth::routes();
-
-//Route::get('/', function () {
-//    return view('welcome');
-//});
 Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::middleware('auth')
+    ->group(function (){
+
+        Route::resource('tags',TagsController::class)
+            ->except('index');
+    });
+
+Route::get('/tags',[TagsController::class,'index'])
+    ->name('tags');
+
+
