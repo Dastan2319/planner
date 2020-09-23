@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PriorityController;
 use App\Http\Controllers\TagsController;
+use App\Http\Controllers\TasksController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
@@ -39,9 +41,19 @@ Route::middleware('auth')
 
         Route::resource('tags',TagsController::class)
             ->except('index');
+
+        Route::resource('tasks',TasksController::class)
+            ->except('index');
+
+        Route::resource('priority',PriorityController::class);
     });
 
 Route::get('/tags',[TagsController::class,'index'])
     ->name('tags');
 
+Route::get('/tasks',[TasksController::class,'index'])
+    ->name('tasks');
+
+Route::post('/tasks/{task}/toggle',[TasksController::class,'toggle'])
+    ->name('tasks.toggle');
 

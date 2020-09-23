@@ -39,14 +39,20 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
+                            <a href="{{ route('tasks') }}" class="nav-link">{{ __('Tasks') }}</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="{{ route('tags') }}" class="nav-link">{{ __('Tags') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('priority.index') }}" class="nav-link">{{ __('Priority') }}</a>
                         </li>
                         <!-- Authentication Links -->
                         <li class="nav-item @if(App::getLocale() == 'ru') active @endif " >
-                            <a href="{{route('lang.change','ru')}}" class="nav-link">ru</a>
+                            <a href="{{route('lang.change','ru')}}" class="nav-link">RU</a>
                         </li>
                         <li class="nav-item @if(App::getLocale() == 'kz') active @endif ">
-                            <a href="{{ route('lang.change','kz') }}" class="nav-link">kz</a>
+                            <a href="{{ route('lang.change','kz') }}" class="nav-link">KZ</a>
                         </li>
                         @guest
                             <li class="nav-item">

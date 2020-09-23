@@ -30,6 +30,9 @@ class User extends Authenticatable
     }
 
     function tasks(){
-        return $this->hasMany(tasks::class);
+        return $this->hasMany(Tasks::class);
+    }
+    function priority(){
+        return $this->hasMany(Priority::class);
     }
 }
