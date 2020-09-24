@@ -51,7 +51,7 @@ $task = $task ?? null;
                     <label for="tags_id">{{ __('labelTags') }}</label>
                     <select name="tags_id" id="tags_id" class="form-control">
                         @foreach($tags as $item)
-                            <option  {{ old('tags_id',$post->category_id ?? null) == $item->id ? 'selected': '' }} value="{{$item->id}}">
+                            <option  {{ old('tags_id',$item->tags_id ?? null) == $item->id ? 'selected': '' }} value="{{$item->id}}">
                                 {{$item->name}}
                             </option>
                         @endforeach
