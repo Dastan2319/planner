@@ -45,13 +45,11 @@
                 <div class="ml-2">
                     <button class="btn btn-success">{{ __('submit') }}</button>
                 </div>
-{{--                <div class="ml-2">--}}
-{{--                    <a href="{{ action('tasks') }}" class="btn btn-success">--}}
-{{--                        <label class="">--}}
-{{--                            <label style="font-size: 12px" class="material-icons">delete</label>    --}}
-{{--                        </label>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
+                <div class="ml-2">
+                    <a href="{{ route('tasks') }}" class="btn btn-danger">
+                            <label style="font-size: 12px" class="material-icons">delete</label>
+                    </a>
+                </div>
             </form>
         </div>
         @if($tasks->isNotEmpty())
